@@ -1,6 +1,7 @@
 let scoreNumber = 0 // it tracks the score
 let optionChosen = false // it looks if any of the options is chosen or not
 let numberOfQuestion = 1 // it tracks the number of questions
+let array = [] // it stores questions
 
 // Selecting Elements -->
 
@@ -23,6 +24,7 @@ questionsData
     // data is in JSON format, it has a "results" property that is an array with different questions as objects
 
     let results = data.results[0] // it stores the first object of the results array 
+    array.push(data.results[0]) // the question is pushed to the array
     let questions = results.question // it stores the question of the first object
     let correct = results.correct_answer // it stores the correct answer of the first question
     let incorrect = results.incorrect_answers // it stores the incorrect answers that is again an array
@@ -79,7 +81,10 @@ questionsData
                         
             // all the values are updated accordingly -->
 
-            results = data.results[randomIndex()]
+            if (!(array.includes(data.results[randomIndex()]))) { 
+                results = data.results[randomIndex()] // only if a question is unique
+            }
+            
             
             questions = results.question
             correct = results.correct_answer

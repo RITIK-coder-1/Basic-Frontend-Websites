@@ -1,4 +1,4 @@
-const div = document.querySelector("div")
+const div = document.querySelector("#clock")
 
 let sec = 0
 let min = 0

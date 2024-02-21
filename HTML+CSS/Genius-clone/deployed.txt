@@ -1,1 +1,0 @@
-the link to the deployed site is: genius.ritik.surge.sh
