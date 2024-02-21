@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1{
+    font-family: "DM Serif Display", serif;
+}
+p{
+    font-family: Archivo, sans-serif;
+}
+
+/* header section */
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+/* Navigation bar */
+nav{
+    height: 60px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.heading{
+    display: flex;
+    width: 100px;
+    flex-grow: 4;
+    padding-left: 80px;
+}
+.nav-text{
+    color: #333333;
+}
+.nav-frontend{
+    font-size: 30px;
+    font-family: "DM Serif Display", serif;
+}
+.nav-list{
+    font-size: 18px;
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
+}
+nav ol{
+    width: 300px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+
+/* navigation hover effect */
+.nav-text:hover{
+    text-decoration: underline;
+}
+.nav-text:focus{
+    border: 2px dashed black;
+    padding: 2px;
+}
+
+/* Main Sections */
+ .main-section-1{
+    height: 700px;
+    background-color: antiquewhite;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+.main-section-1 > div{
+    height: 420px;
+    width: 50%;
+    margin-top: 140px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-section-1  h1{
+    font-size: 53px;
+    font-weight: 700;
+}
+.main-section-1  p{
+    font-size: 23px;
+    font-weight: 400;
+}
+h1 > span{
+    position: relative;
+    top: 11px;
+}
+p > span{
+    position: relative;
+    bottom: 8px;
+}
+.projects{
+    width: 315px;
+    display: flex;
+    justify-content: space-between;
+}
+.projects > div{
+    width: 130px;
+    height: 50px;
+    border: 2px solid black;
+    color: #333333;
+    font-family: Archivo, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+}
+.view-projects{
+    background-color: #fff;
+}
+.main-section-1 img{
+    width: 50%;
+    height: 550px;
+    margin-top: 100px;
+}
+
+.main-section-2{
+    height: 950px;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.main-section2 h1{
+    font-size: 30px;
+}
+.main-section-2 > h1{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main-section-2 > p{
+    font-size: 26px;
+}
+.benefit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    height: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.benefit div {
+    border: 2px solid black;
+    color: #333333;
+    font-family: Archivo, sans-serif;
+    width: 450px;
+    height: 120px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.benefit img{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 7px;
+} 
+.get-started{
+    width: 129px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 600px;
+}
+.get-started a{
+    color: #333333;
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
+}
+
+/* main section hovering effect */
+.projects div:hover, .get-started:hover, .get-started a:hover{
+    color: aliceblue;
+    background-color: black;
+    transition: 1s;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    height: 170px;
+    text-align: center;
+}
+footer > div{
+    position: relative;
+    top: 50px;
+}
+footer ol{
+    color: aliceblue;
+    width: 300px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    position: relative;
+    left: 35%;
+}
+footer .footer-list, footer p{
+    color: aliceblue;
+    margin: 6px;
+    font-size: 18px;
+    font-family: Archivo, sans-serif;
+    font-weight: 600;
+}
+footer p{
+    font-size: 16px;
+    margin: 0px 0px 16px 0px;
+}
+.ritik{
+    position: relative;
+    top: 20px;
+    color: #ce954b;
+}
+
+/* footer hover effect */
+.footer-list:hover{
+    text-decoration: underline;
+}
+.footer-list:focus{
+    border: 2px dashed blue;
+}
