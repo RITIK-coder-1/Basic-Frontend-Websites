@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Own TO DO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- navigation bar -->
+        <nav>
+            <div style="display: flex; flex-direction: column; align-items: end; gap: 5px;">
+                <button id="reset">RESET</button>
+                <span>To Dos: </span>
+                <span>Tasks Done: </span>
+            </div>
+        </nav>
+    </header>
+    <!-- todo container -->
+    <main>
+        <div id="todo-container">
+    
+            <!-- header container -->
+            <div id="todo-header">
+              <h2>Todo List</h2>
+            </div>
+        
+            <!-- the list that will contain all the added tasks -->
+            <ul id="todo-list"></ul>
+        
+            <!-- input to add tasks -->
+            <input type="text" id="todo-input" placeholder="Add a new task">
+        
+            <!-- button to add tasks -->
+            <button id="add-button">Add Task</button>
+        
+        </div>
+    </main>
+    </body>
+<script src="index.js"></script>
+</html>

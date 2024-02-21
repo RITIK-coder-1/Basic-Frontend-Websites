@@ -1,0 +1,141 @@
+/* tags */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root, body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: #bdccd8;
+}
+
+header, nav, main {
+    width: 100%;
+}
+
+nav {
+    display: flex;  
+    justify-content: end;
+    padding: 5px;
+    visibility: hidden; /* it should be hidden until a calculation is made */
+}
+
+main > section {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 150px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Classes and IDs */
+
+.calculator {
+    height: 270px;
+    width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+#reset {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: #df9090;
+    cursor: pointer;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+#general-button, #metric-button {
+    border: none;
+    border-radius: 2px;
+    width: 80px;
+    padding: 5px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+#general-calculator {
+    visibility: visible;
+}
+
+#metric-calculator {
+    height: 350px;
+    visibility: hidden;
+    position: relative;
+    bottom: 320px;
+}
+
+#calculate1, #calculate2 {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+#conclusion {
+    height: 200px;
+    width:  200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    width: 100%;
+    position: relative;
+    bottom: 390px;
+}
+
+/* hover */
+
+#reset:hover {
+    background-color: #cc6262;
+}
+
+#calculate1:hover, #calculate2:hover {
+    background-color: #45a049;
+}
+
+

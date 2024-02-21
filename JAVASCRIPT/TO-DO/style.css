@@ -1,0 +1,127 @@
+/* tags */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root, body{
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #9191e6, #ffffff, #baf1ba);
+}
+header, nav{
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+    padding-top: 5px;
+    visibility: hidden; 
+    /* it should be hidden until a task is created */
+}
+nav span {
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+img{
+    width: 15px;
+}
+/* classes and IDs */
+#reset{
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px;
+    width: 50px;
+}
+#todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000000d3;
+    height: auto;
+    width: 350px;
+}
+#todo-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 80px;
+}
+#todo-list {
+    list-style: none;
+}
+.todo-item {
+    padding: 20px 10px 0px 10px;
+    border-bottom: 1px solid #eee;
+}
+.todo-item > input {
+    border-radius: 5px;
+    width: 100px;
+}
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    width: 45px;
+    position: relative;
+    left: 345px;
+    bottom: 25px;
+}
+.checkbox-container button{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.todo-item input[type="checkbox"] {
+    appearance: none;
+    border: 2px solid #03395e;
+    width: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#todo-input, .todo-item input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #eee;
+    outline: none;
+}
+#add-button, #reset {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button, input[type="text"], input[type="checkbox"] {
+    transition: background-color 0.3s ease;
+}
+
+/* hover */
+#reset:hover{
+    background-color: #b30909;
+}
+#add-button:hover{
+    background-color: #25a85c;
+}
+.todo-item:hover {
+    background-color: #f9f9f9;
+}
+.todo-item input[type="checkbox"]:checked {
+    background-color: #174463;
+}

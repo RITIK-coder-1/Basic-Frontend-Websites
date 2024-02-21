@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <!-- the header section -->
+    <header>
+        <nav> 
+            <button id="reset">RESET</button>
+        </nav>
+    </header>
+    <!-- the main section -->
+    <main>
+        <!-- Section 1 -->
+        <section>
+            <!-- general calculator -->
+            <h1>BMI Calculator</h1>
+            <div id="button-container">
+                <button id="general-button">General</button>
+                <button id="metric-button">Metric</button>
+            </div>
+            <div class="calculator" id="general-calculator">
+                <label for="weight1">Weight (kg):</label>
+                <input type="number" id="weight1" placeholder="Enter weight" required>
+        
+                <label for="height1">Height (m):</label>
+                <input type="number" id="height1" placeholder="Enter height" required>
+        
+                <button id="calculate1">Calculate BMI</button>
+        
+                <div class="result"></div>
+            </div>
+            <!-- metric calculator -->
+            <div class="calculator" id="metric-calculator">
+                <label for="weight2">Weight:</label>
+                <input type="number" id="weight2" placeholder="Enter weight" required>
+    
+                <label for="height2">Height:</label>
+                <input type="number" id="height2" placeholder="Enter height" required>
+    
+                <div>
+                    <label>Choose Your Unit:</label>
+                    <select id="weightUnit">
+                        <option value="KiloGrams">KiloGrams</option>
+                        <option value="Grams">Grams</option>
+                        <option value="Pounds">Pounds</option>
+                    </select>
+                    <select id="heightUnit">
+                        <option value="Meters">Meters</option>
+                        <option value="Centimeters">Centimeters</option>
+                        <option value="Inches">Inches</option>
+                    </select>
+                </div>
+    
+                <button id="calculate2" style="margin-top: 10px;">Calculate BMI</button>
+    
+                <div class="result"></div>
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section>
+            <div id="conclusion"></div>
+        </section>
+    </main>
+    
+</body>
+<script src="index.js"></script>
+</html>

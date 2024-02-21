@@ -1,0 +1,165 @@
+/* tags */
+*{
+    box-sizing: border-box;
+}
+:root, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #333232;
+    color: aliceblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+h1{
+    margin: 0px;
+}
+span{
+    float: right;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #9613961a;
+    width: 287px;
+    height: 156px;
+    background-color: #961e9673;
+    font-size: 20px;
+}
+
+/* classes and IDs */
+.calculator{
+    border: 1px solid #96139640;
+    width: 290px;
+    height: 497px;
+    border-radius: 5px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #821282b6;
+    margin: 0px;
+    box-shadow: 1px 1px 15px 15px #96139640;
+}
+.first-column{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #9613961a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #440544;
+}
+.second-column{
+    width: 85px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid #9613961a;
+    border-right: 1px solid #9613961a;   
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.third-column{
+    width: 73px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid #9613961a;
+    border-right: 1px solid #9613961a;   
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fourth-column{
+    width: 73px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid #9613961a;
+    border-right: 1px solid #9613961a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifth-column{
+    width: 73px;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid #9613961a;
+    border-right: 1px solid #9613961a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sixth-column{
+    width: 73px;
+    height: 60px;
+    border: none;
+    border-right: 1px solid #9613961a;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last-button{
+    border-right: none;
+}
+.same-bg-1{
+    background-color: #5f085f;
+}
+.same-bg-2{
+    background-color: #573d57;
+}
+#first-column{
+    display: flex;
+}
+#second-column{
+    display: flex;
+}
+#third-column{
+    display: flex;
+}
+#fourth-column{
+    display: flex;
+}
+#fifth-column{
+    display: flex;
+}
+#sixth-column{
+    display: flex;
+}
+#clear{
+    border-right: 1px solid #9613961a;
+}
+#clear-all{
+    border-right: 1px solid #9613961a;
+}
+#square-root{
+    border-right: 1px solid #9613961a;
+}
+#equals{
+    width: 150px;
+    background-color: #610961cc;
+}
+
+/* hover */
+.calculator:hover{
+    box-shadow: 3px 3px 20px 20px #96139640;
+}
+button:hover{
+    cursor: pointer;
+}
+.first-column:hover{
+    background-color: #330333;
+}
+.same-bg-1:hover{
+    background-color: #490549;
+}
+.same-bg-2:hover{
+    background-color: #4e374e;
+}
+#equals:hover{
+    background-color: #350c35;
+}
+input::placeholder{
+    font-size: 35px;
+}
+input:focus{
+    outline: none;
+}

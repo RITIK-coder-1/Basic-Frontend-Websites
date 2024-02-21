@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&family=Poppins:wght@500&display=swap');
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Noto Sans Linear B;
+    --grey: #a09494;
+}
+
+/* header */
+header{
+    border: 1px solid black;
+    background-color: #ffff64;
+    overflow-y: hidden;
+}
+header > div{
+    display: flex;
+    height: 40px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+header input{
+    height: 29px;
+    width: 220px;
+    margin-left: 6px;
+    margin-top: 5px;
+    background-color: #fff;
+    border: none;
+    background-image: url('https://cdn2.iconfinder.com/data/icons/lightly-icons/30/search-60.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: right;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+h1 img{
+    position: relative;
+    bottom: 105px;
+    right: 55px;
+    width: 255px;
+    height: 250px;
+    overflow: hidden;
+}
+h1 + div{
+    display: flex;
+    width: 130px;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+header div > a{
+    font-family: Poppins;
+    color: black;
+    font-size: 13px;
+    font-weight: 100;
+}
+::placeholder{
+    color: black;
+    padding: 0px 2px 0px 8px;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+ /* navigation bar */
+nav{
+    width: 100%;
+    background-color: black;
+    height: 40px;
+}
+nav  ol{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 250px;
+}
+nav ol a{
+    font-family: Poppins;
+    color: aliceblue;
+    font-size: 15px;
+    border-right: 1px solid white;
+    padding-right: 40px;
+}
+.socials{
+    width: 40%;
+    height: 100px;
+    z-index: 100;
+    color: blue;
+    border: 1px solid red;
+    background-color: black;
+}
+
+/* header special effects */
+header input:focus{
+    border: none;
+    outline: none;
+}
+header input:focus::placeholder {
+    color: var(--grey);
+}
+
+/* main section */
+main{
+    margin-top: 30px;
+}
+main > .section1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding-right: 70px;
+}
+.section1  .news{
+    width: 35%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 75px;
+    margin-bottom: 150px;
+}
+.section1 h2{
+    font-size: 36px;
+    font-weight: 100;
+}
+.section1 span{
+    font-size: 13px;
+}
+.section1 caption{
+    font-size: 16px;
+}
+.section1 hr{
+    width: 95%;
+    position: relative;
+    bottom: 18px;
+    left: 45px;
+    border: black 1px solid;
+}
+.section1 .date{
+    color: var(--grey);
+}
+.section1 .image{
+    width: 650px;
+    height: 85%;
+    background-image: url('https://t2.genius.com/unsafe/376x376/https%3A%2F%2Fimages.genius.com%2Fb04ed326fc503d53623d77de0091daee.1000x1000x1.jpg');
+    background-repeat: repeat;
+    background-position: center;
+}
+.section1 .image-overflow{
+    height: 100%;
+    position: relative;
+}
+.section1 .images img{
+    width: 365px;
+    height: 100%;
+}
+
+/* secion1 special effects */
+h2:hover{
+    text-decoration: underline;
+}
+.news:hover{
+    cursor: pointer;
+}
+
+/* section2 */
+.section2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+}
+.container{  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 20px;
+    align-items: center;
+    border-right: 2px solid black;
+}
+.container .news{
+    font-size: 12px;
+    font-weight: 400;
+}
+.section2 h2{
+    font-weight: 100;
+}
+.section2 span{
+    font-size: 12px;
+}
+.section2 .date{
+    color: #9a9a9a;
+}
+.container .image{
+    width: 270px;
+    height: 130px;
+    background-repeat: repeat;
+    background-size: 140px 100%;
+    background-position: center;
+    
+}
+.container > div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.section2 > .last-cont{
+    border: none;
+}
+.img1{
+    background-image: url('https://s3.amazonaws.com/filepicker-images-rapgenius/j4BbTTFjS1ugvZx4KJD0_504f89f2dff76e6cbc6fd25476a9b4f1.1000x1000x1.jpg');
+}
+.img2{
+    background-image: url('https://s3.amazonaws.com/filepicker-images-rapgenius/MfCsnWoiQ3i0XgRZX8Wp_387e5d1f82351e5ef5d2152aad421cb2.910x910x1.jpg');
+}
+.img3{
+    background-image: url('https://s3.amazonaws.com/filepicker-images-rapgenius/j4BbTTFjS1ugvZx4KJD0_504f89f2dff76e6cbc6fd25476a9b4f1.1000x1000x1.jpg');
+}
+.img4{
+    background-image: url('https://i.genius.com/bbb2d5cafea53c09b193bf10dd12ee51ec3857b5?url=https%3A%2F%2Fis1-ssl.mzstatic.com%2Fimage%2Fthumb%2FMusic126%2Fv4%2F80%2Fa4%2Fca%2F80a4ca2d-2911-9e8c-b8b3-6327221dfe4d%2F23UM1IM02569.rgb.jpg%2F1400x1400-999.png');
+}
+
+/* section2 effects */
+.container:hover{
+    cursor: pointer;
+}
+
+/* section3 */
+.sec3{
+    margin-top: 60px;
+}
+.sec3 > .heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-left: 45px;
+    padding-right: 55px;
+}
+.sec3 > .heading > div{
+    width: 250px;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    height: 40px;
+}
+.sec3 h1{
+    font-size: 80px;
+}
+.charts{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(10, 80px);
+    margin-left: 60px;
+    margin-right: 90px;
+}
+.hover{
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-rows: 80px;
+}
+.hover div{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    border-bottom: 1px solid #d8d5d5;
+    gap: 10px;
+}
+.charts .song{
+    margin-left: 30px;
+}
+.charts .lyrics{
+    font-size: 12px;
+    margin-top: 5px;
+    color: var(--grey);
+}
+.charts .views{
+    font-size: 12px;
+}
+.charts img{
+    width: 10%;
+    height: 80%;
+}
+.load-more{
+    width: 150px;
+    padding: 12px;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 560px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* section3 effects */
+.hover:hover{
+    background-color: #dce5ec;
+}
+.charts:hover{
+    cursor: pointer;
+}
+.load-more:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
