@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+body{
+    background-color: #160e2a;
+}
+header{
+    height: 550px;
+    background: radial-gradient(
+        circle at top left, #6f12e9 25%, #2f114b 75%
+    );
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+.bg-effect{
+    width: 450px;
+    height: 450px;
+    background: radial-gradient(
+        circle at top left, #b906f0 50%, #6f12e9 70%
+    );
+    filter: blur(1px);
+    bottom: 380px;
+    right: 1000px;
+}
+button{
+    background-color: #2f114b;
+}
+header h1{
+    font-family: 'Dosis', sans-serif;
+}
+#FirstImage{
+    position: relative;
+    bottom: 545px;
+    left: 140px;
+}
+#SecondImage{
+    position: relative;
+    bottom: 489px;
+    left: 331px;
+}
+#ThirdImage{
+    position: relative;
+    bottom: 695px;
+    left: 975px;
+}
+#FourthImage{
+    position: relative;
+    bottom: 710px;
+    left: 585px;
+}
+#FifthImage{
+    position: relative;
+    bottom: 690px;
+    left: 690px;
+}
+#SixthImage{
+    position: relative;
+    bottom: 570px;
+    left: 650px;
+}
+#SeventhImage{
+    position: relative;
+    bottom: 645px;
+    left: 390px;
+}
+.section1{
+    height: 850px;
+}
+.merlin-bg{
+    background-color: #3c3d51;
+}
+.section3 > div{
+    background-color: #090611
+}
+.section4{
+    border-bottom: 1px solid #4d1d7a;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+input, button[type]{
+    background-color: #090611;
+}
