@@ -63,6 +63,17 @@ button{
     cursor: pointer;
 }
 
+/* restart */
+
+#restart{
+    background: transparent;
+    color: #1d1c1c;
+    border-radius: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+    visibility: hidden;
+}
+
 /* Hover effects */
 
 li:hover{
@@ -70,4 +81,8 @@ li:hover{
 }
 button:hover{
     background-color: #3d3b3b;
+}
+#restart:hover{
+    background-color: #797575;
+    color: aliceblue;
 }

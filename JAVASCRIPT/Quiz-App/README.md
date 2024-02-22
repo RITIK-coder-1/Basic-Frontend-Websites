@@ -19,6 +19,7 @@ Checkout: http://quiz.ritik.surge.sh/
 - Allows users to select answers and highlights correct/incorrect choices.
 - Displays the current score and question number.
 - Provides a final score at the end of the quiz.
+- You can restart the quiz once it is finished.
 
 ## Getting Started
 
