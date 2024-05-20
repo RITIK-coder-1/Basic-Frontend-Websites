@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="w-full h-full bg-slate-900 flex justify-center items-center">
+    <!-- Password Container -->
+
+    <div class="w-1/2 h-96 border-white border-solid border flex flex-col justify-between items-center py-3">
+
+        <h1 class="text-white font-bold text-xl">Password Generator</h1>
+
+        <!-- Password Field -->
+        <input type="text" placeholder="Click On Generate Button" class="w-5/6 rounded p-1 px-3 focus-within:outline-none" readonly id="password">
+
+        <!-- Generate Button -->
+        <div class="w-auto h-6 flex justify-between items-center gap-1 py-3">
+            <button class="w-28 text-white text-sm font-bold bg-purple-700 p-1 rounded transition hover:bg-purple-950" title="Generate Your Password" id="generatePassword">Generate</button>
+            <button class="w-36 text-white text-sm font-bold bg-purple-700 p-1 rounded transition hover:bg-purple-950" title="Copy The Password to Clipboard" id="copyToClipboard">Copy To Clipboard</button>
+        </div>
+
+        <!-- Password Properties -->
+        <div class="w-auto h-auto flex justify-between items-center gap-7 py-3">
+
+            <div class="w-auto h-full">
+                <ul class="flex flex-col justify-between gap-3 text-white font-semibold">
+                    <li title="Decide Your Password Length">Password Length</li>
+                    <li title="If you want to include uppercase letters">Include Uppercase Letters</li>
+                    <li title="If you want to include lowercase letters">Include Lowercase Letters</li>
+                    <li title="If you want to include Numbers">Include Numbers</li>
+                    <li title="If you want to include Symbols">Include Symbols</li>
+                </ul>
+            </div>
+
+            <div class="w-auto h-full flex flex-col justify-between gap-3">
+                <input type="number" class="w-20 h-5 bg-slate-900 border border-white border-solid text-white rounded" value="8" id="passwordLength">
+                <input type="checkbox" checked id="uppercase">
+                <input type="checkbox" checked id="lowercase">
+                <input type="checkbox" checked id="includeNumbers">
+                <input type="checkbox" checked id="includeSymbols">
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
