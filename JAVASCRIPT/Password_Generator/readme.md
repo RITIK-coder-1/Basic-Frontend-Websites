@@ -2,6 +2,8 @@
 
 This is a simple Password Generator application that allows users to generate secure passwords with customizable options. Users can specify the length of the password and include or exclude uppercase letters, lowercase letters, numbers, and symbols.
 
+Visit link: http://password-generator.ritik.surge.sh/
+
 ## Features
 
 - Generate passwords of customizable length (between 8 and 73 characters).
