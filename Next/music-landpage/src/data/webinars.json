@@ -1,0 +1,33 @@
+[
+    {
+      "title": "Mastering Music Theory Basics",
+      "description": "This webinar is for beginners who want to build a strong foundation in music theory. Learn the essential concepts that will enhance your understanding and performance of music.",
+      "link": "https://example.com/webinars/mastering-music-theory-basics"
+    },
+    {
+      "title": "Advanced Guitar Techniques",
+      "description": "This webinar is for intermediate to advanced guitar players looking to elevate their skills. Discover advanced techniques and tips to improve your guitar playing.",
+      "link": "https://example.com/webinars/advanced-guitar-techniques"
+    },
+    {
+      "title": "Songwriting and Composition",
+      "description": "This webinar is for aspiring songwriters and composers. Learn the art of songwriting and composition from industry professionals to create your own music.",
+      "link": "https://example.com/webinars/songwriting-and-composition"
+    },
+    {
+      "title": "Music Production in DAWs",
+      "description": "This webinar is for those interested in music production. Explore the tools and techniques for producing high-quality music using Digital Audio Workstations (DAWs).",
+      "link": "https://example.com/webinars/music-production-in-daws"
+    },
+    {
+      "title": "Vocal Training for Singers",
+      "description": "This webinar is for vocalists who want to improve their singing techniques. Learn exercises and methods to enhance your vocal performance and maintain vocal health.",
+      "link": "https://example.com/webinars/vocal-training-for-singers"
+    },
+    {
+      "title": "Jazz Improvisation Techniques",
+      "description": "This webinar is for musicians interested in jazz. Dive into the world of jazz improvisation and learn how to create spontaneous and expressive solos.",
+      "link": "https://example.com/webinars/jazz-improvisation-techniques"
+    }
+  ]
+  

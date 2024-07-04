@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "title": "Beginner Guitar Lessons",
+      "slug": "beginner-guitar-lessons",
+      "desc": "Learn the basics of playing guitar, including chords, strumming, and simple songs.",
+      "price": 49.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "beginner-guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Intermediate Piano Techniques",
+      "slug": "intermediate-piano-techniques",
+      "desc": "Advance your piano skills with intermediate techniques and challenging pieces.",
+      "price": 69.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "intermediate-piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Mastering the Violin",
+      "slug": "mastering-the-violin",
+      "desc": "Take your violin playing to the next level with master classes and performance tips.",
+      "price": 99.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "mastering-violin.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Jazz Improvisation",
+      "slug": "jazz-improvisation",
+      "desc": "Learn the art of jazz improvisation with expert guidance and practice exercises.",
+      "price": 79.99,
+      "instructor": "Michael Brown",
+      "isFeatured": false,
+      "image": "jazz-improvisation.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Vocal Training for Beginners",
+      "slug": "vocal-training-for-beginners",
+      "desc": "Improve your singing voice with basic vocal exercises and techniques.",
+      "price": 39.99,
+      "instructor": "Sarah Davis",
+      "isFeatured": true,
+      "image": "vocal-training.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "desc": "Create your own electronic music tracks using popular software and techniques.",
+      "price": 89.99,
+      "instructor": "David Wilson",
+      "isFeatured": false,
+      "image": "electronic-music.jpg"
+    }
+  ]
+  
