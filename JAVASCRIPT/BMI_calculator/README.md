@@ -4,7 +4,7 @@
 
 This BMI (Body Mass Index) calculator is a user-friendly web application that allows individuals to calculate their BMI based on either general or metric units. BMI is a measure of body fat based on weight and height, providing an indication of whether an individual is underweight, normal weight, overweight, or obese.
 
-Use the app here: [BMI-calculator](http://bmi-calculator.ritik.surge.sh/)
+Use the app here: [BMI-calculator](https://bmi-calculator-ritik.vercel.app/)
 
 ## Features
 
